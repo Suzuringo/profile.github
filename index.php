@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada" rel="stylesheet">
+    <!-- bootstrapのcss読み込み -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- bootstrapのjs読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/c81fa55527.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <header>
+            <div class="header-container">
+                <div class="header-top">
+                    <div class="container">
+                        <div class="header-logo">
+                            <a href=""><img src="img/logo.jpg" alt=""></a>
+                        </div>
+                        <div class="header-right">
+                            <a href="https://twitter.com/suzu_sayuringo"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/szkt_engineer.it/?hl=ja"><i class="fab fa-instagram-square"></i></a>
+                            <a href="https://github.com/Suzuringo"><i class="fab fa-github-square"></i></a>
+                            <a href=""><i class="fas fa-envelope-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <div class="container">
+                        
+                            <i id="open"class="fas fa-bars"></i>
+                        
+                    </div>
+                    <div class="pull-down">
+                        <div class="pull-top">
+                            <a href="">Blog(Coming soon)</a>
+                            <a class="p2" href="">Profile</a>
+                        </div>
+                        <div class="pull-bottom">
+                            <a href="https://twitter.com/suzu_sayuringo"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.instagram.com/szkt_engineer.it/?hl=ja"><i class="fab fa-instagram-square"></i></a>
+                            <a class="p2" href="https://github.com/Suzuringo"><i class="fab fa-github-square"></i></a>
+                            <a class="p2" href=""><i class="fas fa-envelope-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+    <section>
+        <main>
+            <div class="main-wrapper">
+                <div class="top-wrapper">
+                    <div class="container">
+                        <h1 id="name-1">Profile</h1>
+                    </div>
+                </div>
+                <div class="center-wrapper">
+                    <div class="container">
+                        <p>APRIL 15,2020</p>
+                        <div class="cha">
+                            <h2>特徴</h2>
+                            <p>宮城の大学生(20)</p>
+                            <dl>
+                                <dt>興味</dt>
+                                <dd>機械学習</dd>
+                                <dd>競技プログラミング</dd>
+                                <dd>Python</dd>
+                                <dd>Scala</dd>
+                                <dd>C#</dd>
+                                <dd>Haskell</dd>
+                            </dl>
+                        </div>
+                        <div class="lan cont">
+                            <h2>言語</h2>
+                            <p class="language">C++,Javascript,PHP,CSS</p>
+                        </div>
+                        <div class="git cont">
+                            <h2>Github</h2>
+                            <a href="https://github.com/Suzuringo" class="btn_02">コード</a>
+                        </div>
+                        <div class="twi cont">
+                            <h2>Twitter</h2>
+                            <a id="twitter-data"class="twitter-timeline" data-width="300" data-height="300" data-theme="light" href="https://twitter.com/suzu_sayuringo?ref_src=twsrc%5Etfw">Tweets by suzu_sayuringo</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div class="ins cont">
+                            <h2>Instagram</h2>
+                            <a href="https://www.instagram.com/szkt_engineer.it/?hl=ja" class="btn_02">投稿はこちら</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont">
+                <h3 id="contact">お問い合わせ</h3>
+                    <div class="form">
+                        <p>名前</p>
+                        <input type="text">
+                        <p>メールアドレス</p>
+                        <input type="text">
+                        <p>お問い合わせ内容</p>
+                        <textarea name="" id="" cols="30" rows="8"></textarea>
+                        <button type="submit">送信する</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section>
+        <footer>
+            <div class="footer-wrapper">
+                <div class="footer-container">
+                    Kouta Suzuki
+                    <a href="https://twitter.com/suzu_sayuringo"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/szkt_engineer.it/?hl=ja"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://github.com/Suzuringo"><i class="fab fa-github-square"></i></a>
+                    <a href=""><i class="fas fa-envelope-square"></i></a>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
