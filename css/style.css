@@ -98,6 +98,7 @@ header{
 main{
     color:#4e5665;
     background-color: #F4F5F7;
+    text-align: center;
 }
 
 .top-wrapper{
@@ -108,9 +109,10 @@ main{
     position:relative;
 }
 .top-wrapper h1{
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Montserrat Subrayada', sans-serif;
     background-color: white;
+    padding:5px 15px;
     width:55%;
     margin:0 auto;
     text-align: center;
@@ -182,7 +184,11 @@ a.btn_02:hover:before {
 }
 .cha dd{
     margin:0;
-    margin-left:40px;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
 }
 .cont:before{
     content:"";
